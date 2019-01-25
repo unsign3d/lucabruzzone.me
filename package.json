@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "nes.css": "^1.0.0",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "name": "lucabruzzone.me",
+  "description": "personal website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^5.12.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "next build; next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unsign3d/lucabruzzone.me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unsign3d/lucabruzzone.me/issues"
+  },
+  "homepage": "https://github.com/unsign3d/lucabruzzone.me#readme"
+}
