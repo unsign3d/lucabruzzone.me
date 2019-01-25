@@ -1,0 +1,8 @@
+.float-containers {
+  display: flex;
+}
+
+.small-containers {
+  width: 32%;
+  margin: 15px;
+}
