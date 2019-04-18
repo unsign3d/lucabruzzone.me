@@ -1,11 +1,19 @@
-body {   
-  width: 100%;
-  height: 100%;
-  background-color: #333;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.room {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
+
+@import 'components/pencil';
+@import 'components/postit';
+@import 'components/mug';
+@import 'components/phone';
+@import 'components/laptop/';
+@import 'components/description/';
+
 
 .table {
   height: 500px;
@@ -20,137 +28,11 @@ body {
 }
 
 .title {
-  color: white;
   text-align: center;
+  font-size: 1.5em;
   margin-top: 25px;
 }
 
 .top-part {
   display: flex;
-}
-
-.pencil {
-  position: relative;
-  left: 50px;
-  top: 20px;
-  display: flex;
-  flex-direction: column;
-  .eraser {
-    width: 16px;
-    height: 16px;
-    background-color: #f44248;
-  }
-  .body {
-    background-color: #f97013;
-    height: 100px;
-    width: 16px;
-    .shadow {
-      height: 100px;
-      width: 8px;
-      margin-left: 8px;
-      background-color: rgba(0,0,0,0.20);
-    }
-  }
-  .point { 
-    height: 0;
-    width: 0;
-    border-right: 8px solid transparent;
-    border-left: 8px solid transparent;
-    border-top: 15px solid black;
-  }
-}
-.postit {
-  position: relative;
-  left: 100px;
-  top: 20px;
-  width: 160px;
-  min-height: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #f44248;
-  border-bottom-right-radius: 32px;
-  .line {
-    width: 120px;
-    height: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    background: rgba(0,0,0,0.30);
-  }
-}
-
-.mug { 
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-top: 100px;
-  margin-left: 50px;
-    .cup {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      width: 100px;
-      height: 120px;
-      background-color: white;
-      border-radius: 5px;
-      border-bottom-left-radius: 45px;
-      border-bottom-right-radius: 45px;
-      border-top-left-radius: 125px 50px;
-      border-top-right-radius: 125px 50px;
-      .opening {
-        background: #ddd;
-        margin-top: 5px;
-        width: 90px;
-        height: 30px;
-        border-radius: 50%;
-      }
-  }
-  .handle {
-    height: 40px;
-    width: 20px;
-    margin-top: 35px;
-    border-top-right-radius: 30px 50px;
-    border-bottom-right-radius: 30px 50px;
-    border-top: 10px solid white;
-    border-bottom: 10px solid white;
-    border-right: 10px solid white;
-  }
-}
-.phone {
-  position: relative;
-  top: 90px;
-  left: 620px;
-  width: 80px;
-  height: 140px;
-  background-color: black;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-  .speaker {
-    height: 5px;
-    width: 15px;
-    background-color: white;
-    margin-top: 5px;
-    border-radius: 5px;
-  }
-  .screen {
-    margin-top: 5px;
-    width: 70px;
-    height: 100px;
-    background-color: white;
-  }
-  .button {
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 50%
-  }
 }

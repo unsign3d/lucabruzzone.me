@@ -1,34 +1,23 @@
 // index.pug
 
 doctype html
-html(lang="")
+html(lang="en")
   head
     link(rel="stylesheet", href="index.scss")
   body
+    .title Hi I'm Luca, nice to meet you
     .room
-      .title Hi I'm Luca, nice to meet you
       .table
         .top-part
-          .pencil
-            .eraser
-            .body
-              .shadow
-            .point
+          include components/pencil/index.pug
+          include components/postit/index.pug
+          
+          include components/phone/index.pug  
+        
+        .lower-part
+          include components/laptop/index.pug
+          include components/mug/index.pug
 
-          .postit
-            .line
-            .line
-            .line
-            .line
-          .phone
-            .speaker
-            .screen
-            .button
-            
-        .mug
-          .cup
-            .opening
-          .handle
-
+  include components/description/index.pug
 
     
