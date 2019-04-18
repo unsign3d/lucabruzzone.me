@@ -1,10 +1,8 @@
 {
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "nes.css": "^1.0.0",
-    "next": "^7.0.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.18.0",
+    "pug": "^2.0.3"
   },
   "name": "lucabruzzone.me",
   "description": "personal website",
@@ -14,11 +12,8 @@
     "eslint": "^5.12.1"
   },
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "deploy": "next build; next export"
+    "start": "parcel index.pug",
+    "deploy": "parcel build"
   },
   "repository": {
     "type": "git",

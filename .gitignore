@@ -82,3 +82,5 @@ typings/
 .dynamodb/
 
 node_modules/
+
+dist
