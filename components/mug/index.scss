@@ -1,0 +1,38 @@
+.mug { 
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: -70px;
+  margin-left: 50px;
+    .cup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 100px;
+      height: 120px;
+      background-color: white;
+      border-radius: 5px;
+      border-bottom-left-radius: 45px;
+      border-bottom-right-radius: 45px;
+      border-top-left-radius: 125px 50px;
+      border-top-right-radius: 125px 50px;
+      .opening {
+        background: #ddd;
+        margin-top: 5px;
+        width: 90px;
+        height: 30px;
+        border-radius: 50%;
+      }
+  }
+  .handle {
+    height: 40px;
+    width: 20px;
+    margin-top: 35px;
+    border-top-right-radius: 30px 50px;
+    border-bottom-right-radius: 30px 50px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+  }
+}

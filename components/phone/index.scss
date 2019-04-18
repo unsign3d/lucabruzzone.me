@@ -1,0 +1,35 @@
+.phone {
+  position: relative;
+  top: 90px;
+  left: 620px;
+  width: 80px;
+  height: 140px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  .speaker {
+    height: 5px;
+    width: 15px;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  .screen {
+    margin-top: 5px;
+    width: 70px;
+    height: 100px;
+    background-color: white;
+  }
+  .button {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%
+  }
+}

@@ -1,0 +1,23 @@
+// index.pug
+
+doctype html
+html(lang="en")
+  head
+    link(rel="stylesheet", href="index.scss")
+  body
+    .title Hi I'm Luca, nice to meet you
+    .room
+      .table
+        .top-part
+          include components/pencil/index.pug
+          include components/postit/index.pug
+          
+          include components/phone/index.pug  
+        
+        .lower-part
+          include components/laptop/index.pug
+          include components/mug/index.pug
+
+  include components/description/index.pug
+
+    
