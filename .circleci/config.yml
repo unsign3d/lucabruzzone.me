@@ -44,10 +44,13 @@ jobs:
           at: dist
       - run:
           name: Install and configure dependencies
-          command: |
-            npm install -g --silent gh-pages@2.0.1
-            git config user.email "ci-build@unsigned.it"
-            git config user.name "ci-build"
+          command: npm install -g --silent gh-pages
+      - run:
+          name: git 1
+          command: git config user.email "ci-build@unsigned.it"
+      - run:
+          name: git 2
+          command: git config user.name "ci-build"
       - run:
           name: Deploy to gh-pages branch
           command: gh-pages --dotfiles --message "[skip ci] Deploy" --dist dist 
