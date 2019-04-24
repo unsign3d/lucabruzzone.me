@@ -29,9 +29,9 @@ jobs:
             - node_modules
             - .cache
           key: v1-dependencies-{{ checksum "package.json" }}
-    persist_to_workspace:
-      root: ./
-      paths: dist
+      - persist_to_workspace:
+          root: ./
+          paths: dist
   deploy:
     docker:
       # specify the version you desire here
