@@ -5,15 +5,16 @@
 version: 2
 jobs:
   build:
+    branches:
+      ignore:
+        - gh-pages
+        
     docker:
       # specify the version you desire here
       - image: circleci/node:10.15
 
     working_directory: ~/repo
 
-    branches:
-      ignore:
-        - gh-pages
 
     steps:
       - checkout
