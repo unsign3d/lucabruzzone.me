@@ -1,19 +1,19 @@
-language: node_js
-node_js:
-  - "10.15"
-script:
-  - "yarn deploy"
+# language: node_js
+# node_js:
+#   - "10.15"
+# script:
+#   - "yarn deploy"
 
-notifications:
-  email:
-    on_success: never
-    on_failure: never
+# notifications:
+#   email:
+#     on_success: never
+#     on_failure: never
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  local-dir: "dist"
-  on:
-    branch: master
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+#   keep-history: true
+#   local-dir: "dist"
+#   on:
+#     branch: master

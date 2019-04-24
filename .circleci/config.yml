@@ -11,10 +11,6 @@ jobs:
 
     working_directory: ~/repo
 
-    branches:
-      ignore:
-        - gh-pages
-
     steps:
       - checkout
 
@@ -33,3 +29,40 @@ jobs:
             - node_modules
             - .cache
           key: v1-dependencies-{{ checksum "package.json" }}
+    persist_to_workspace:
+      root: dist
+  deploy:
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:10.15
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "e4:25:1b:c4:05:66:9b:8e:9c:c4:fa:3d:93:f2:50:c5"
+      - attach_workspace:
+          at: dist
+      - run:
+        name: Install and configure dependencies
+        command: |
+          npm install -g --silent gh-pages@2.0.1
+          git config user.email "ci-build@unsigned.it"
+          git config user.name "ci-build"
+      - run:
+        name: Deploy to gh-pages branch
+        command: gh-pages --dotfiles --message "[skip ci] Deploy" --dist dist 
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - docs-deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
