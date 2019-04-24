@@ -31,7 +31,6 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
     persist_to_workspace:
       root: dist
-  
   deploy:
     docker:
       # specify the version you desire here
@@ -58,9 +57,9 @@ workflows:
   build:
     jobs:
       - build:
-        filters:
-          branches:
-            ignore: gh-pages
+          filters:
+            branches:
+              ignore: gh-pages
       - docs-deploy:
           requires:
             - build
