@@ -59,7 +59,7 @@ jobs:
           command: |
             git checkout gh-pages
             git pull
-            echo lbruzzone.me > CNAME
+            echo lucabruzzone.me > CNAME
             git add CNAME
             git commit -m 'add cname'
             git push
