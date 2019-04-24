@@ -30,8 +30,8 @@ jobs:
             - .cache
           key: v1-dependencies-{{ checksum "package.json" }}
     persist_to_workspace:
-      root: ~/repo
-      paths: dist/*
+      root: ./
+      paths: dist
   deploy:
     docker:
       # specify the version you desire here
@@ -44,7 +44,7 @@ jobs:
           fingerprints:
             - "e4:25:1b:c4:05:66:9b:8e:9c:c4:fa:3d:93:f2:50:c5"
       - attach_workspace:
-          at: ~/repo/dist
+          at: dist
       - run:
           name: git 1
           command: git config user.email "ci-build@unsigned.it"
