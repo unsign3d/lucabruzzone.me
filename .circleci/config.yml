@@ -60,7 +60,7 @@ workflows:
           filters:
             branches:
               ignore: gh-pages
-      - docs-deploy:
+      - deploy:
           requires:
             - build
           filters:
