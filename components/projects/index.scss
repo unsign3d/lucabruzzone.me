@@ -1,0 +1,41 @@
+.cards {
+  display: flex;
+  margin-top: 20px;
+  flex-flow: row wrap;
+}
+
+.card {
+  margin: 18px;
+  flex: 1 0 calc(25% - 10px);
+  background: white;
+  padding: 18px;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .card-title {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .card-date {
+    font-size: 0.8em;
+  }
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.projects {
+  background-color: #b3d4fc;
+  margin-top: 35px;
+  margin: 0;
+  padding: 0;
+}
