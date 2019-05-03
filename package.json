@@ -2,6 +2,7 @@
   "dependencies": {
     "parcel-bundler": "^1.12.3",
     "pug": "^2.0.3",
+    "rss-parser": "^3.7.0",
     "sass": "^1.18.0"
   },
   "name": "lucabruzzone.me",
@@ -9,11 +10,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": "^5.12.1",
+    "jest": "^24.7.1"
   },
   "scripts": {
     "start": "parcel index.pug",
-    "deploy": "parcel build index.pug"
+    "deploy": "node tasks/mediumFeed.js && parcel build index.pug",
+    "test": "jest tests",
+    "medium": "node tasks/mediumFeed.js"
   },
   "repository": {
     "type": "git",

@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
 
 .room {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
 }
 
 @import 'components/pencil';
@@ -13,6 +16,7 @@
 @import 'components/phone';
 @import 'components/laptop/';
 @import 'components/description/';
+@import 'components/projects/';
 
 
 .table {
@@ -31,6 +35,7 @@
   text-align: center;
   font-size: 1.5em;
   margin-top: 25px;
+  font-weight: bold;
 }
 
 .top-part {
