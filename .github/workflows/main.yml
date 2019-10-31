@@ -1,4 +1,4 @@
-name: vadliate licenses
+name: vadliate_licenses
 
 on: [push]
 
@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: validate-license-action
-    - uses: datreeio/validate-license-action@v1.0.0
+      - name: validate-license-action
+      - uses: datreeio/validate-license-action@v1.0.0
