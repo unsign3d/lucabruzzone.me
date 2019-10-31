@@ -1,0 +1,12 @@
+name: vadliate licenses
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: validate-license-action
+    - uses: datreeio/validate-license-action@v1.0.0
