@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .room {
@@ -10,24 +10,20 @@ body {
   align-items: center;
 }
 
-@import 'components/pencil';
-@import 'components/postit';
-@import 'components/mug';
-@import 'components/phone';
-@import 'components/laptop/';
-@import 'components/description/';
-@import 'components/projects/';
-
+@import "components/pencil";
+@import "components/postit";
+@import "components/mug";
+@import "components/phone";
+@import "components/laptop/";
+@import "components/description/";
+@import "components/projects/";
+@import "components/codepen/";
 
 .table {
   height: 500px;
   width: 1000px;
   margin-top: 25px;
-  background: repeating-linear-gradient(
-    to bottom,
-    #5D4037,
-    #795548,
-  );
+  background: repeating-linear-gradient(to bottom, #5d4037, #795548);
   background-size: 50% 50px;
 }
 
