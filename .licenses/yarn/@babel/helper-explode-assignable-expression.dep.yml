@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-explode-assignable-expression"
+version: 7.1.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-explode-assignable-expression
+license: none
+licenses: []
+notices: []

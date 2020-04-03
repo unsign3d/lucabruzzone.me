@@ -1,0 +1,8 @@
+---
+name: pug-lexer
+version: 4.1.0
+type: yarn
+homepage: https://github.com/pugjs/pug/tree/master/packages/pug-lexer
+license: none
+licenses: []
+notices: []

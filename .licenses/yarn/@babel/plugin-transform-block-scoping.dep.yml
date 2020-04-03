@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-transform-block-scoping"
+version: 7.6.3
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-block-scoping
+license: none
+licenses: []
+notices: []

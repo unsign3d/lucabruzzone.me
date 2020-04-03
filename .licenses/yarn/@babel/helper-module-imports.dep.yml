@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-module-imports"
+version: 7.0.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-module-imports
+license: none
+licenses: []
+notices: []

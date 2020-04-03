@@ -1,0 +1,8 @@
+---
+name: string.prototype.trimleft
+version: 2.1.0
+type: yarn
+homepage: git://github.com/es-shims/String.prototype.trimLeft.git
+license: none
+licenses: []
+notices: []

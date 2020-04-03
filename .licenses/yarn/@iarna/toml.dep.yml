@@ -1,0 +1,8 @@
+---
+name: "@iarna/toml"
+version: 2.2.3
+type: yarn
+homepage: git+https://github.com/iarna/iarna-toml.git
+license: none
+licenses: []
+notices: []

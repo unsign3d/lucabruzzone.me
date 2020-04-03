@@ -1,0 +1,8 @@
+---
+name: filesize
+version: 3.6.1
+type: yarn
+homepage: git://github.com/avoidwork/filesize.js.git
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-get-function-arity"
+version: 7.0.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-get-function-arity
+license: none
+licenses: []
+notices: []

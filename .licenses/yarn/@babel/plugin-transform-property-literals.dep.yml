@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-transform-property-literals"
+version: 7.2.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-property-literals
+license: none
+licenses: []
+notices: []

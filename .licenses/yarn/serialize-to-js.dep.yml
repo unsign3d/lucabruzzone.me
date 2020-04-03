@@ -1,0 +1,8 @@
+---
+name: serialize-to-js
+version: 3.0.1
+type: yarn
+homepage: git+https://github.com/commenthol/serialize-to-js.git
+license: none
+licenses: []
+notices: []

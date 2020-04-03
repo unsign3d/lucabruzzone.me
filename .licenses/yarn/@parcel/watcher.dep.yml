@@ -1,0 +1,8 @@
+---
+name: "@parcel/watcher"
+version: 1.12.1
+type: yarn
+homepage: https://github.com/parcel-bundler/parcel.git
+license: none
+licenses: []
+notices: []

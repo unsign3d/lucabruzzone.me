@@ -1,0 +1,8 @@
+---
+name: pbkdf2
+version: 3.0.17
+type: yarn
+homepage: https://github.com/crypto-browserify/pbkdf2.git
+license: none
+licenses: []
+notices: []

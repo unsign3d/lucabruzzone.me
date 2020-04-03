@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-split-export-declaration"
+version: 7.4.4
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: defaults
+version: 1.0.3
+type: yarn
+homepage: git://github.com/tmpvar/defaults.git
+license: none
+licenses: []
+notices: []

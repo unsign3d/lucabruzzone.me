@@ -1,0 +1,8 @@
+---
+name: acorn
+version: 4.0.13
+type: yarn
+homepage: https://github.com/ternjs/acorn.git
+license: none
+licenses: []
+notices: []

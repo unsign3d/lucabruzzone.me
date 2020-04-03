@@ -1,0 +1,8 @@
+---
+name: browser-process-hrtime
+version: 0.1.3
+type: yarn
+homepage: git://github.com/kumavis/browser-process-hrtime.git
+license: none
+licenses: []
+notices: []

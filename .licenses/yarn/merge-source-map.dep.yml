@@ -1,0 +1,8 @@
+---
+name: merge-source-map
+version: 1.0.4
+type: yarn
+homepage: git+https://github.com/keik/merge-source-map.git
+license: none
+licenses: []
+notices: []

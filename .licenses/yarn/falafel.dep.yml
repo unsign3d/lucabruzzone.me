@@ -1,0 +1,8 @@
+---
+name: falafel
+version: 2.1.0
+type: yarn
+homepage: git://github.com/substack/node-falafel.git
+license: none
+licenses: []
+notices: []

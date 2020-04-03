@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-transform-object-super"
+version: 7.5.5
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-super
+license: none
+licenses: []
+notices: []

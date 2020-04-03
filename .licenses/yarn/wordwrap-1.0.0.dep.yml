@@ -1,0 +1,8 @@
+---
+name: wordwrap
+version: 1.0.0
+type: yarn
+homepage: git://github.com/substack/node-wordwrap.git
+license: none
+licenses: []
+notices: []

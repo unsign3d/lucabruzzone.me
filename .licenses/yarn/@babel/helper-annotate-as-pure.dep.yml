@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-annotate-as-pure"
+version: 7.0.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-annotate-as-pure
+license: none
+licenses: []
+notices: []

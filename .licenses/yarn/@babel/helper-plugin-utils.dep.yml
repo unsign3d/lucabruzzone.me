@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-plugin-utils"
+version: 7.0.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils
+license: none
+licenses: []
+notices: []

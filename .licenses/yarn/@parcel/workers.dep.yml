@@ -1,0 +1,8 @@
+---
+name: "@parcel/workers"
+version: 1.11.0
+type: yarn
+homepage: https://github.com/parcel-bundler/parcel.git
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-transform-function-name"
+version: 7.4.4
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-name
+license: none
+licenses: []
+notices: []

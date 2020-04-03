@@ -1,0 +1,8 @@
+---
+name: npm-packlist
+version: 1.4.6
+type: yarn
+homepage: git+https://github.com/npm/npm-packlist.git
+license: none
+licenses: []
+notices: []

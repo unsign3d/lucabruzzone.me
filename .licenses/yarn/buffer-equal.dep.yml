@@ -1,0 +1,8 @@
+---
+name: buffer-equal
+version: 0.0.1
+type: yarn
+homepage: git://github.com/substack/node-buffer-equal.git
+license: none
+licenses: []
+notices: []

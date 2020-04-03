@@ -1,0 +1,8 @@
+---
+name: rss-parser
+version: 3.7.3
+type: yarn
+homepage: git+https://github.com/bobby-brennan/rss-parser.git
+license: none
+licenses: []
+notices: []

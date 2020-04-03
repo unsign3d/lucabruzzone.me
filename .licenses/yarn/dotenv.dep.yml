@@ -1,0 +1,8 @@
+---
+name: dotenv
+version: 5.0.1
+type: yarn
+homepage: git://github.com/motdotla/dotenv.git
+license: none
+licenses: []
+notices: []

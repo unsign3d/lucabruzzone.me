@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-builder-react-jsx"
+version: 7.3.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-builder-react-jsx
+license: none
+licenses: []
+notices: []

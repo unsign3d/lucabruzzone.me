@@ -1,0 +1,8 @@
+---
+name: get-port
+version: 3.2.0
+type: yarn
+homepage: https://github.com/sindresorhus/get-port.git
+license: none
+licenses: []
+notices: []

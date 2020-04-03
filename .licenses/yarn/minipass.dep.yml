@@ -1,0 +1,8 @@
+---
+name: minipass
+version: 2.9.0
+type: yarn
+homepage: git+https://github.com/isaacs/minipass.git
+license: none
+licenses: []
+notices: []

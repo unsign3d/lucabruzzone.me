@@ -1,0 +1,8 @@
+---
+name: wcwidth
+version: 1.0.1
+type: yarn
+homepage: git+https://github.com/timoxley/wcwidth.git
+license: none
+licenses: []
+notices: []

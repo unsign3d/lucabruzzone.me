@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-builder-binary-assignment-operator-visitor"
+version: 7.1.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor
+license: none
+licenses: []
+notices: []

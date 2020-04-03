@@ -1,0 +1,8 @@
+---
+name: brfs
+version: 1.6.1
+type: yarn
+homepage: git://github.com/substack/brfs.git
+license: none
+licenses: []
+notices: []

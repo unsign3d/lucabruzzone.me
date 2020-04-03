@@ -1,0 +1,8 @@
+---
+name: "@babel/types"
+version: 7.6.3
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-types
+license: none
+licenses: []
+notices: []

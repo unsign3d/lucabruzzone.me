@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-proposal-object-rest-spread"
+version: 7.6.2
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-object-rest-spread
+license: none
+licenses: []
+notices: []

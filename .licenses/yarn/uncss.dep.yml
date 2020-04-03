@@ -1,0 +1,8 @@
+---
+name: uncss
+version: 0.17.2
+type: yarn
+homepage: git+https://github.com/uncss/uncss.git
+license: none
+licenses: []
+notices: []

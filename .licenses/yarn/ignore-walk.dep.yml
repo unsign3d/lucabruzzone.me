@@ -1,0 +1,8 @@
+---
+name: ignore-walk
+version: 3.0.3
+type: yarn
+homepage: git+https://github.com/isaacs/ignore-walk.git
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-proposal-dynamic-import"
+version: 7.5.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-dynamic-import
+license: none
+licenses: []
+notices: []

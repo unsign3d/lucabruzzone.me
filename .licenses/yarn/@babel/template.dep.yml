@@ -1,0 +1,8 @@
+---
+name: "@babel/template"
+version: 7.6.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-template
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: uuid
+version: 3.3.3
+type: yarn
+homepage: https://github.com/kelektiv/node-uuid.git
+license: none
+licenses: []
+notices: []

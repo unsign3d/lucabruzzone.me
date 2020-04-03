@@ -1,0 +1,8 @@
+---
+name: string-width
+version: 2.1.1
+type: yarn
+homepage: https://github.com/sindresorhus/string-width.git
+license: none
+licenses: []
+notices: []

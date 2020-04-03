@@ -1,0 +1,8 @@
+---
+name: clone
+version: 2.1.2
+type: yarn
+homepage: git://github.com/pvorb/node-clone.git
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: pug-load
+version: 2.0.12
+type: yarn
+homepage: https://github.com/pugjs/pug/tree/master/packages/pug-load
+license: none
+licenses: []
+notices: []

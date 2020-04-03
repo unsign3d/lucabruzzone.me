@@ -1,0 +1,8 @@
+---
+name: yargs
+version: 3.10.0
+type: yarn
+homepage: http://github.com/bcoe/yargs.git
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: pug-code-gen
+version: 2.0.2
+type: yarn
+homepage: https://github.com/pugjs/pug/tree/master/packages/pug-code-gen
+license: none
+licenses: []
+notices: []

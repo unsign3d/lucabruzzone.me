@@ -1,0 +1,8 @@
+---
+name: private
+version: 0.1.8
+type: yarn
+homepage: git://github.com/benjamn/private.git
+license: none
+licenses: []
+notices: []

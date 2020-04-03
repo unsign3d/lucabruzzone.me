@@ -1,0 +1,8 @@
+---
+name: static-module
+version: 2.2.5
+type: yarn
+homepage: git://github.com/substack/static-module.git
+license: none
+licenses: []
+notices: []

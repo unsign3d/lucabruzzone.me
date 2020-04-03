@@ -1,0 +1,8 @@
+---
+name: htmlnano
+version: 0.2.4
+type: yarn
+homepage: git://github.com/posthtml/htmlnano.git
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: pug-parser
+version: 5.0.1
+type: yarn
+homepage: https://github.com/pugjs/pug/tree/master/packages/pug-parser
+license: none
+licenses: []
+notices: []

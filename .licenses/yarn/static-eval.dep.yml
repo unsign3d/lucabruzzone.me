@@ -1,0 +1,8 @@
+---
+name: static-eval
+version: 2.0.2
+type: yarn
+homepage: git://github.com/substack/static-eval.git
+license: none
+licenses: []
+notices: []

@@ -1,0 +1,8 @@
+---
+name: detect-libc
+version: 1.0.3
+type: yarn
+homepage: git://github.com/lovell/detect-libc
+license: none
+licenses: []
+notices: []

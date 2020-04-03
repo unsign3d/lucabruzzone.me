@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-transform-exponentiation-operator"
+version: 7.2.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-exponentiation-operator
+license: none
+licenses: []
+notices: []

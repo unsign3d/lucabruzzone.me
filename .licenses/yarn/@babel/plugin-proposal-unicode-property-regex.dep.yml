@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-proposal-unicode-property-regex"
+version: 7.6.2
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-unicode-property-regex
+license: none
+licenses: []
+notices: []

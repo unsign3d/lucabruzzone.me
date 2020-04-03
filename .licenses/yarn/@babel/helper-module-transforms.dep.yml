@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-module-transforms"
+version: 7.5.5
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-module-transforms
+license: none
+licenses: []
+notices: []

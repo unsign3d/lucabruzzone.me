@@ -1,0 +1,8 @@
+---
+name: object-inspect
+version: 1.4.1
+type: yarn
+homepage: git://github.com/substack/object-inspect.git
+license: none
+licenses: []
+notices: []

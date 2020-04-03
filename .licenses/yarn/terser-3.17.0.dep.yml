@@ -1,0 +1,8 @@
+---
+name: terser
+version: 3.17.0
+type: yarn
+homepage: https://github.com/fabiosantoscode/terser.git
+license: none
+licenses: []
+notices: []

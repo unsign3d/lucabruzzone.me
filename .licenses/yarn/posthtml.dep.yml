@@ -1,0 +1,8 @@
+---
+name: posthtml
+version: 0.11.6
+type: yarn
+homepage: https://github.com/posthtml/posthtml.git
+license: none
+licenses: []
+notices: []

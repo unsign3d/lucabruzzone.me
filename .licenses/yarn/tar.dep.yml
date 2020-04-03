@@ -1,0 +1,8 @@
+---
+name: tar
+version: 4.4.13
+type: yarn
+homepage: https://github.com/npm/node-tar.git
+license: none
+licenses: []
+notices: []

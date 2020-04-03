@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-transform-duplicate-keys"
+version: 7.5.0
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-duplicate-keys
+license: none
+licenses: []
+notices: []

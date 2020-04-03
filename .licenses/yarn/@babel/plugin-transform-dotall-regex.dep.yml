@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-transform-dotall-regex"
+version: 7.6.2
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-dotall-regex
+license: none
+licenses: []
+notices: []

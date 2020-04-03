@@ -1,0 +1,8 @@
+---
+name: object.getownpropertydescriptors
+version: 2.0.3
+type: yarn
+homepage: git://github.com/ljharb/object.getownpropertydescriptors.git
+license: none
+licenses: []
+notices: []

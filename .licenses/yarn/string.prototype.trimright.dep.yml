@@ -1,0 +1,8 @@
+---
+name: string.prototype.trimright
+version: 2.1.0
+type: yarn
+homepage: git://github.com/es-shims/String.prototype.trimRight.git
+license: none
+licenses: []
+notices: []

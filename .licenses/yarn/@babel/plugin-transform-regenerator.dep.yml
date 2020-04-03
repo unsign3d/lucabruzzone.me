@@ -1,0 +1,8 @@
+---
+name: "@babel/plugin-transform-regenerator"
+version: 7.4.5
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-regenerator
+license: none
+licenses: []
+notices: []

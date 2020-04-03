@@ -1,0 +1,8 @@
+---
+name: "@babel/helper-call-delegate"
+version: 7.4.4
+type: yarn
+homepage: https://github.com/babel/babel/tree/master/packages/babel-helper-call-delegate
+license: none
+licenses: []
+notices: []
