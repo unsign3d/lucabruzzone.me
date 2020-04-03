@@ -6,6 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1.0.0
+      - uses: jonabc/setup-licensed@v1
+        with:
+          version: 2.x
       - uses: jonabc/licensed-ci@v1.5.0
         with:
           github_token: ${{ secrets.GH_TOKEN }}
