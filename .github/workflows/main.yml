@@ -7,3 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1.0.0
       - uses: jonabc/licensed-ci@v1.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
