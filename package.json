@@ -9,10 +9,6 @@
   "description": "personal website",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {
-    "eslint": "^5.12.1",
-    "jest": "^24.7.1"
-  },
   "scripts": {
     "start": "parcel index.pug",
     "deploy": "node tasks/mediumFeed.js && parcel build index.pug",
