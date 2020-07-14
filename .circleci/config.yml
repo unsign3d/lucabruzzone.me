@@ -54,15 +54,6 @@ jobs:
       - run:
           name: Deploy to gh-pages branch
           command: NODE_DEBUG=gh-pages npx gh-pages --dotfiles --message "[skip ci] Deploy" -d dist/*
-      - run:
-          name: Fix disappearing CNAME
-          command: |
-            git checkout gh-pages
-            git pull
-            echo lucabruzzone.me > CNAME
-            git add CNAME
-            git commit -m 'add cname'
-            git push
 workflows:
   version: 2
   nightly:
